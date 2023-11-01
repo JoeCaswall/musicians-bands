@@ -15,6 +15,12 @@ Musician.init(
   }
 );
 
+Musician.bulkCreate([
+  { name: "Axl Rose", instrument: "Voice" },
+  { name: "Slash", instrument: "Guitar" },
+  { name: "Angus Young", instrument: "Guitar" },
+]);
+
 module.exports = {
   Musician,
   Model,

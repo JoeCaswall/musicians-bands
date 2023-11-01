@@ -16,6 +16,11 @@ Song.init(
   }
 );
 
+Song.bulkCreate([
+  { title: "Kiss from a rose", year: 1994, length: 331 },
+  { title: "Highway to Hell", year: 1979, length: 235 },
+  { title: "For whom the bell tolls", year: 1984, length: 456 },
+]);
 module.exports = {
   Song,
   Model,
